@@ -14,7 +14,7 @@ public class BaseDragAndDrop : MonoBehaviour
 
     private void Start() {
 
-        Debug.Log("nep");
+        Debug.Log("kurt");
 
         locked = false;
            //remove !locked
