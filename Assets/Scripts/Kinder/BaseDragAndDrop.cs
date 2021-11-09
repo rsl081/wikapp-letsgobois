@@ -13,6 +13,9 @@ public class BaseDragAndDrop : MonoBehaviour
     private Vector3 spriteDragStartPosition;
 
     private void Start() {
+
+        Debug.Log("happy");
+
         locked = false;
            //remove !locked
         if(Input.touchCount > 0){
